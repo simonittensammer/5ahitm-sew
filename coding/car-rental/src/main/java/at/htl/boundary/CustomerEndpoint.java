@@ -16,7 +16,7 @@ import java.util.Map;
 
 @Path("customer")
 public class CustomerEndpoint {
-
+    
     @GET
     @Produces({MediaType.APPLICATION_JSON})
     public Customer getCustomer() {
